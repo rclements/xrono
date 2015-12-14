@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.homepage = "http://www.xrono.org"
   s.version = %q(1.0.12)
 
-  s.add_dependency 'rails', '4.0.6'
-  s.add_dependency 'railties', '4.0.6'
+  s.add_dependency 'rails'#, '4.0.6'
+  s.add_dependency 'railties'#, '4.0.6'
   s.add_dependency 'acl9'#, '~> 0.12.0'
   s.add_dependency 'devise'#, '~> 2.2.8'
   s.add_dependency 'devise-encryptable', '~> 0.1.1'
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'state_machine', '~> 1.0.2'
   s.add_dependency 'googlecharts', '~> 1.6.8'
   s.add_dependency 'css3-progress-bar-rails', '~> 0.2.2'
-  s.add_dependency 'grit', '~> 2.4.0'
+  s.add_dependency 'grit'#, '~> 2.4.0'
   s.add_dependency 'paper_trail', '3.0.0'
   s.add_dependency 'attr_encrypted', '~> 1.2.0'
   s.add_dependency 'acts-as-taggable-on'
@@ -34,11 +34,11 @@ Gem::Specification.new do |s|
   s.add_dependency 'oauth2'
   s.add_dependency 'sidekiq', '3.1.3'
   s.add_dependency 'simple-navigation-bootstrap'
-  s.add_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_dependency 'coffee-rails'#, '~> 4.0.0'
   s.add_dependency 'uglifier', '>= 1.3.0'
   s.add_dependency 'compass'
   s.add_dependency 'bootstrap-sass'
-  s.add_dependency 'sass-rails', '4.0.3'
+  s.add_dependency 'sass-rails'#, '4.0.3'
   s.add_dependency 'chosen-rails'
   s.add_dependency 'protected_attributes'
 
